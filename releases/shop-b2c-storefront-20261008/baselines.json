@@ -1,0 +1,14 @@
+{
+  "app.js": [
+    "bc0b300a834094bb25738ac9d2f5da215f943afc851628ff343ed616af656acf"
+  ],
+  "index.php": [
+    "97f83012d661fa9ed0c6e757aa70d46bc760ec9cf3244fdff7b01ef38b3ea073"
+  ],
+  "login.php": [
+    "dadcbc422dda728e2483141d9743a7af6dce5be27ad0f98fb4105367ac1aa71b"
+  ],
+  "register.php": [
+    "67f71c85a44a7fde3ed60a2810bc63fed3e2e089029640d6df7ae99acd0bc91f"
+  ]
+}

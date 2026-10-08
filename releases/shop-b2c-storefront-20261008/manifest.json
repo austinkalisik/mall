@@ -1,0 +1,42 @@
+[
+  {
+    "file": "app.js",
+    "sha256": "60c69fbaaa0be1d9588320834fb530672b8b299bdcd608e734559da6fdba1cc1"
+  },
+  {
+    "file": "assets/b2c-shell.js",
+    "sha256": "ebbe7a9589c7f89bbcf22afcad2f2c7394153143ce44aa7542f8614e72b01465"
+  },
+  {
+    "file": "assets/b2c-storefront.css",
+    "sha256": "dc103bed25282996f0060857842f3a172ccb4ea67dbc301438f59a7ac757bc78"
+  },
+  {
+    "file": "assets/product-studio.css",
+    "sha256": "df4360935611eaccf6fdd79dd04bcbe1b92d544e71054681870f707e356d4128"
+  },
+  {
+    "file": "footer.php",
+    "sha256": "26f68ddd93fbdeeb1a4bb3c39f96a7e588cbed332862e005f84e7cefd3a46f03"
+  },
+  {
+    "file": "header.php",
+    "sha256": "c842041c360d5e4e0e818c7ed044eb87ca7ddc91b8a645382e01180391f2bc39"
+  },
+  {
+    "file": "index.php",
+    "sha256": "81250232a6c5ca81e437bddf4d5b99fcf01ba03c1dad01ed9546775fe8056764"
+  },
+  {
+    "file": "login.php",
+    "sha256": "b3945db5301967ab1a198b4699ea66ed88bdef898857f4325a519428be486e23"
+  },
+  {
+    "file": "page.php",
+    "sha256": "a4005c7a28e210015efdca0e726d4197fc9d7bb59333edbcbfa14afbf2f3139e"
+  },
+  {
+    "file": "register.php",
+    "sha256": "c86b06de7d8c49f17fbefb9d071fc7cf42193cfb28aa06b76f80e98fe9ffe2ba"
+  }
+]
