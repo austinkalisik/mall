@@ -1,0 +1,12 @@
+# BEGIN NEXTGEN B2C ROUTES
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{REQUEST_METHOD} ^(?:GET|HEAD)$
+RewriteCond %{THE_REQUEST} \s/+b2c-preview/(?:index\.php)?(?:[?\s]) [NC]
+RewriteRule ^b2c-preview/(?:index\.php)?$ / [R=302,L]
+RewriteCond %{REQUEST_METHOD} ^(?:GET|HEAD)$
+RewriteCond %{THE_REQUEST} \s/+b2c-preview/(login|register)\.php(?:[?\s]) [NC]
+RewriteRule ^b2c-preview/(login|register)\.php$ /$1 [R=302,L]
+RewriteRule ^(?:shop|login|register|logout|about|contact|help|privacy|terms)/?$ index.php [QSA,L]
+</IfModule>
+# END NEXTGEN B2C ROUTES

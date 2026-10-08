@@ -1,0 +1,1 @@
+<footer class="b2c-footer"><a href="/"><img src="<?= brandEscape('logoUrl') ?>" alt="<?= brandEscape('storeName') ?>"></a><p>© <?= date('Y') ?> <?= brandEscape('footerText') ?> · B2C retail store</p><nav aria-label="Footer"><a href="/contact">Contact</a><a href="/privacy">Privacy</a><a href="/terms">Terms</a></nav></footer>

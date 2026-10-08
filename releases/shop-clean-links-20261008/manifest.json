@@ -1,0 +1,38 @@
+[
+  {
+    "file": "b2c-preview/app.js",
+    "sha256": "971d23d8dc0e9d21245c8dae7bb3939a457434cc70545ca6bc35e81161860381"
+  },
+  {
+    "file": "b2c-preview/assets/b2c-shell.js",
+    "sha256": "0a12265f2624c82834b6625122998dff5a4006f3555dfa91d284d36d015ffc3b"
+  },
+  {
+    "file": "b2c-preview/footer.php",
+    "sha256": "0b1a058129620e8e3f910cbcb00b7470511b547d2b618e799ab8d297647c1738"
+  },
+  {
+    "file": "b2c-preview/header.php",
+    "sha256": "002e3f8f9ded15a7ef079e540aefe7bc372ba4057c4351dafaca5b1c955cf84d"
+  },
+  {
+    "file": "b2c-preview/index.php",
+    "sha256": "7253098f12ff24885fbb2f7c6925de0054c7895d5348e06e6fc3d1bde9080d14"
+  },
+  {
+    "file": "b2c-preview/login.php",
+    "sha256": "67dd6cec8698416dcbd81e1a8317d4bb653b1c61a17002b19a5b08818fb21a5d"
+  },
+  {
+    "file": "b2c-preview/page.php",
+    "sha256": "3a8e67f1e38f6a548ac5ecf9cc70027e4f0827b54d976bf78da728051fcfc24a"
+  },
+  {
+    "file": "b2c-preview/register.php",
+    "sha256": "b21ab8f137848bc616223e026b64f47ed10d9fc6a6539265da45dd12095d6742"
+  },
+  {
+    "file": "index.php",
+    "sha256": "eccfbfd6743f2dc8b3956fe69dacb8d54c55d623d45aa88880d0dadc5e976734"
+  }
+]
