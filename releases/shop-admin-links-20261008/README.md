@@ -1,0 +1,1 @@
+B2C shop dashboard navigation update. Deploy with PHP CLI. Keeps native permission route names and existing backend/data. Back up index.html before replacing it; retain older hashed assets. Restore backup index.html to roll back. Source changes accompany the compiled payload. Build/type checks and browser navigation/dashboard tests passed.

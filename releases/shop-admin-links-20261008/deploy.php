@@ -1,0 +1,7 @@
+<?php
+if(PHP_SAPI!=='cli')exit('CLI only');
+$root='/home/nextgenpng/public_html/shop.nextgenpng.net/b2c-admin';
+$m=json_decode(file_get_contents(__DIR__.'/manifest.json'),true,512,JSON_THROW_ON_ERROR);$g=json_decode(file_get_contents(__DIR__.'/baseline.json'),true,512,JSON_THROW_ON_ERROR);
+foreach($m as $x){$file=$x['file'];$target=$root.'/'.$file;if(hash_file('sha256',__DIR__.'/payload/'.$file)!==$x['sha256'])throw new Exception('Invalid payload: '.$file);if(is_link($target))throw new Exception('Unexpected symlink: '.$file);if(is_file($target)){if(hash_file('sha256',$target)!==$x['sha256']&&hash('sha256',str_replace("\r\n","\n",file_get_contents($target)))!==($g[$file]??''))throw new Exception('Live file differs; stopped: '.$file);}elseif(isset($g[$file]))throw new Exception('Missing dashboard entry point');}
+$backup='/home/nextgenpng/nextgen-b2c-private/admin-links-backup-'.date('Ymd-His');if(!mkdir($backup,0700,true))throw new Exception('Backup failed');if(!copy($root.'/index.html',$backup.'/index.html'))throw new Exception('Backup copy failed');
+usort($m,fn($a,$b)=>($a['file']==='index.html'?1:0)<=>($b['file']==='index.html'?1:0));foreach($m as $x){$target=$root.'/'.$x['file'];if(!is_dir(dirname($target)))mkdir(dirname($target),0755,true);$tmp=tempnam(dirname($target),'.admin-links-');if(!copy(__DIR__.'/payload/'.$x['file'],$tmp))throw new Exception('Copy failed');chmod($tmp,0644);if(!rename($tmp,$target))throw new Exception('Install failed');}echo "B2C admin links deployed. Backup: $backup\n";
