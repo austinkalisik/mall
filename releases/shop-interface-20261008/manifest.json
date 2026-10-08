@@ -1,15 +1,15 @@
 [
   {
     "file": "index.php",
-    "sha256": "97f83012d661fa9ed0c6e757aa70d46bc760ec9cf3244fdff7b01ef38b3ea073"
+    "sha256": "8d41efde03d0acefb20946f379653a40611b385cd5aa313af21bc484a89b9509"
   },
   {
     "file": "login.php",
-    "sha256": "dadcbc422dda728e2483141d9743a7af6dce5be27ad0f98fb4105367ac1aa71b"
+    "sha256": "b16bf2c0eb6b7703b142eb2fcbeacbfdee3cd84bca721c19033ee32cc69cdfc4"
   },
   {
     "file": "register.php",
-    "sha256": "67f71c85a44a7fde3ed60a2810bc63fed3e2e089029640d6df7ae99acd0bc91f"
+    "sha256": "01f82ade369388eaef535a86da739ae886c2e8c13e5a6d880ef2234888f2455c"
   },
   {
     "file": "assets/shop-interface.css",
