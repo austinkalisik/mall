@@ -1,0 +1,18 @@
+[
+  {
+    "file": "index.php",
+    "sha256": "97f83012d661fa9ed0c6e757aa70d46bc760ec9cf3244fdff7b01ef38b3ea073"
+  },
+  {
+    "file": "login.php",
+    "sha256": "dadcbc422dda728e2483141d9743a7af6dce5be27ad0f98fb4105367ac1aa71b"
+  },
+  {
+    "file": "register.php",
+    "sha256": "67f71c85a44a7fde3ed60a2810bc63fed3e2e089029640d6df7ae99acd0bc91f"
+  },
+  {
+    "file": "assets/shop-interface.css",
+    "sha256": "a1ad67a117668078a073dab1708cc51e30afb2b41096d4a02daa9f7ae364cdaf"
+  }
+]
